@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React, { FC, PropsWithChildren } from "react";
 import { Nav } from "../ui/Navbar";
-import pokeball from "../../assets/images/pokeball.png";
 
 interface LayoutProps extends PropsWithChildren<{}> {
   title?: string;
